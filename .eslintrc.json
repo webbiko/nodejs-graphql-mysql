@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "node": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2021
+    },
+    "rules": {
+        "quotes": ["error", "single", { "avoidEscape": true }],
+        "no-trailing-spaces": [2, { "skipBlankLines": false }],
+        "no-multi-spaces": ["error", { "ignoreEOLComments": false }],
+        "no-var": "error",
+        "indent": ["error", 4],
+        "no-undef": "error",
+        "object-curly-spacing": ["error", "always"],
+        "array-bracket-spacing": ["error", "always"],
+        "eol-last": "off",
+        "no-dupe-else-if": "error"
+      }
+}
